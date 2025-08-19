@@ -1,0 +1,40 @@
+.footerSectionMainContainer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  background-image: linear-gradient(to right, #e46caa, #5cbcf6, #2bbaff);
+  padding: 0;
+  box-shadow: 0px -1px 10px rgba(0,0,0,0.10);
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 32px;
+}
+
+.footerText {
+  color: white;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.footerButton {
+  background: white;
+  color: #2bbaff;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.footerButton:hover {
+  background: #f0f0f0;
+}
